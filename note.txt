@@ -1,0 +1,5 @@
+go mod init santrikoding/backend-api
+
+go get -u github.com/gin-gonic/gin@v1.10.0
+
+go run main.go
