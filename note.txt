@@ -3,3 +3,21 @@ go mod init santrikoding/backend-api
 go get -u github.com/gin-gonic/gin@v1.10.0
 
 go run main.go
+
+# Setup Air Dev
+go install github.com/air-verse/air@latest
+
+Environment linux
+$GOPATH/bin atau $HOME/go/bin
+
+~/.bashrc~/.zshrc
+export PATH=$PATH:$HOME/go/bin
+
+Environment windows
+C:\Users\username\go\bin
+
+# Init Air Dev
+air init
+
+# Running project
+air
