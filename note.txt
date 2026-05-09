@@ -21,3 +21,6 @@ air init
 
 # Running project
 air
+
+# Load Env
+go get github.com/joho/godotenv@v1.5.1
