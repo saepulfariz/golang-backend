@@ -26,6 +26,10 @@ air
 go get github.com/joho/godotenv@v1.5.1
 
 
+# GORM
 go get -u gorm.io/gorm@v1.25.12
 go get -u gorm.io/driver/mysql@v1.5.7
 
+
+# JWT
+go get github.com/golang-jwt/jwt/v5@v5.2.2
