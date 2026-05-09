@@ -24,3 +24,8 @@ air
 
 # Load Env
 go get github.com/joho/godotenv@v1.5.1
+
+
+go get -u gorm.io/gorm@v1.25.12
+go get -u gorm.io/driver/mysql@v1.5.7
+

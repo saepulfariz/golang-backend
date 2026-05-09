@@ -2,6 +2,7 @@ package main
 
 import (
 	"santrikoding/backend-api/config"
+	"santrikoding/backend-api/database"
 
 	"github.com/gin-gonic/gin"
 )
@@ -10,6 +11,9 @@ func main() {
 
 	//load config .env
 	config.LoadEnv()
+
+	//inisialisasi database
+	database.InitDB()
 
 	//inisialiasai Gin
 	router := gin.Default()
