@@ -33,3 +33,7 @@ go get -u gorm.io/driver/mysql@v1.5.7
 
 # JWT
 go get github.com/golang-jwt/jwt/v5@v5.2.2
+
+
+# Validation
+go get github.com/go-playground/validator/v10@v10.26.0
